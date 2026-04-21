@@ -7,8 +7,9 @@ on:
             -"src/**"
             
     pull_request:
-        - main
-        - "release/**"
+        branches:
+            - main
+            - "release/**"
 jobs:
     test:
         runs-on: ubuntu-latest
