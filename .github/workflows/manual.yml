@@ -6,8 +6,8 @@ on:
             default: "staging"
             type: choice
             options:
-                - staging
-                - production
+              - staging
+              - production
       
     test:
         runs-on: ubuntu-latest
